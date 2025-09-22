@@ -1,7 +1,7 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
-    utils.url = "github:gytis-ivaskevicius/flake-utils-plus";
+    nixpkgs.url = "github:meta-introspector/nixpkgs?ref=feature/CRQ-016-nixify";
+    utils.url = "github:meta-introspector/flake-utils-plus?ref=feature/CRQ-016-nixify";
   };
 
   outputs = inputs@{ self, utils, ... }:
